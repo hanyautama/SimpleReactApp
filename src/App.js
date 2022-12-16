@@ -7,7 +7,7 @@ export default function App() {
 
   //const [inputRef, setInputRef] = useState('');
   const handleChange = (event) => {
-     console.log(event.target.value);
+     //console.log(event.target.value);
      //event.target.value.replace(/\.|,/g,'')
      //console.log(inputRef.current.value.replace(/\.|,/g,''))
      var corrected = inputRef.current.value.replace(/\.|,/g,'');
